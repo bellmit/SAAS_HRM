@@ -46,4 +46,10 @@ public class CompanyController {
         companyService.updateCompany(company);
         return Result.SUCCESS();
     }
+
+    @RequestMapping(value = "/{companyId}" , method = RequestMethod.DELETE)
+    public Result del(@PathVariable("companyId") String companyId){
+        companyService.delCompany(companyId);
+        return Result.SUCCESS();
+    }
 }
