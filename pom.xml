@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.JPP</groupId>
+    <groupId>com.JPP</groupId>
     <artifactId>SAAS_HRM</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ihrm_common</module>
-        <!--        <module>ihrm_common_model</module>-->
-<!--        <module>ihrm_company</module>-->
+        <module>ihrm_common_model</module>
+        <module>ihrm_company</module>
 <!--        <module>ihrm_system</module>-->
 <!--        <module>ihrm_eureka</module>-->
 <!--        <module>ihrm_gate</module>-->
@@ -21,8 +21,8 @@
     </modules>
 
     <packaging>pom</packaging>
-    <name>ihrm_parent</name>
-    <description>IHRM-黑马程序员</description>
+    <name>SAAS_HRM</name>
+    <description>SAAS_HRM企业管理</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

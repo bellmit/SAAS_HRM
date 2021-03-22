@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ihrm_common_model" />
         <module name="ihrm_common" />
+        <module name="ihrm_company" />
       </profile>
     </annotationProcessing>
   </component>
@@ -14,6 +16,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SAAS_HRM" options="" />
       <module name="ihrm_common" options="-parameters" />
+      <module name="ihrm_common_model" options="-parameters" />
+      <module name="ihrm_company" options="-parameters" />
     </option>
   </component>
 </project>
