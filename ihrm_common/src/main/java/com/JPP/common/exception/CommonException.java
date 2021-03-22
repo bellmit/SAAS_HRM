@@ -4,6 +4,10 @@ import com.JPP.common.entity.Result;
 import com.JPP.common.entity.ResultCode;
 import lombok.Getter;
 
+/**
+ * ）添加自定义的异常
+ * */
+
 @Getter
 public class CommonException extends RuntimeException{
     private static final long serialVersionUID = 1L;
