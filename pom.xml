@@ -11,7 +11,7 @@
         <module>ihrm_common</module>
         <module>ihrm_common_model</module>
         <module>ihrm_company</module>
-<!--        <module>ihrm_system</module>-->
+        <module>ihrm_system</module>
 <!--        <module>ihrm_eureka</module>-->
 <!--        <module>ihrm_gate</module>-->
 <!--        <module>ihrm_social_securitys</module>-->
