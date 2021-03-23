@@ -1,4 +1,4 @@
-package com.JPP.controller;
+package com.JPP.company.controller;
 
 import com.JPP.common.controller.BaseController;
 import com.JPP.common.entity.Result;
@@ -6,8 +6,8 @@ import com.JPP.common.entity.ResultCode;
 import com.JPP.domain.company.Company;
 import com.JPP.domain.company.Department;
 import com.JPP.domain.company.response.DeptListResult;
-import com.JPP.service.CompanyService;
-import com.JPP.service.DepartmentService;
+import com.JPP.company.service.CompanyService;
+import com.JPP.company.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

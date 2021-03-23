@@ -1,4 +1,4 @@
-package com.JPP.dao;
+package com.JPP.company.dao;
 
 import com.JPP.domain.company.Company;
 import org.springframework.data.jpa.repository.JpaRepository;

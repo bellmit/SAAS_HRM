@@ -1,7 +1,7 @@
-package com.JPP.service;
+package com.JPP.company.service;
 
 import com.JPP.common.utils.IdWorker;
-import com.JPP.dao.CompanyDao;
+import com.JPP.company.dao.CompanyDao;
 import com.JPP.domain.company.Company;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.JPP.config;
+package com.JPP.company.config;
 
 import com.JPP.common.utils.IdWorker;
 import org.springframework.context.annotation.Bean;
